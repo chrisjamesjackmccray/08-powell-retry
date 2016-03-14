@@ -4,34 +4,94 @@ body {
   background-repeat: no-repeat; }
 
 header {
-  width: 100%;
-  height: 100px;
+  width: 68%;
+  height: 150px;
   background-color: black;
   margin: 0 auto; }
 
-@media screen and (min-width: 900px) {
+.headerbox1 {
+  width: 25%;
+  height: 45px;
+  float: left;
+  margin: 80px 10px 0 0;
+  background-color: #b4292e; }
+  .headerbox1 h2 {
+    color: white;
+    text-align: center;
+    margin: 12px 0 0 0;
+    text-transform: uppercase;
+    font-size: 100%;
+    font-style: oblique; }
+
+.headerbox2 {
+  width: 20%;
+  height: 45px;
+  float: left;
+  margin: 80px 10px 0 0;
+  background-color: #b4292e; }
+  .headerbox2 h2 {
+    color: white;
+    text-align: center;
+    margin: 12px 0 0 0;
+    text-transform: uppercase;
+    font-size: 100%;
+    font-style: oblique; }
+
+.headerbox3 {
+  width: 20%;
+  height: 45px;
+  float: left;
+  margin: 10px 10px 0 0;
+  background-color: #b4292e; }
+  .headerbox3 h2 {
+    color: white;
+    text-align: center;
+    margin: 12px 0 0 0;
+    text-transform: uppercase;
+    font-size: 100%;
+    font-style: oblique; }
+
+.headerbox4 {
+  width: 20%;
+  height: 45px;
+  float: left;
+  margin: 10px 0 0 0;
+  background-color: #b4292e; }
+  .headerbox4 h2 {
+    color: white;
+    text-align: center;
+    margin: 12px 0 0 0;
+    text-transform: uppercase;
+    font-size: 100%;
+    font-style: oblique; }
+
+@media screen and (min-width: 400px) {
   .facebook {
     width: 50px;
     height: 50px;
     background-color: black;
-    position: absolute;
-    margin: 0 0 0 170px;
+    float: right;
+    margin: 20px 145px 0 0;
     background-image: url("https://www.web-expert.gr/images/social/facebook.jpg"); }
   .rss {
     width: 50px;
     height: 50px;
-    position: absolute;
-    margin: 0 0 0 230px;
+    float: right;
+    margin: 20px 0 0 0;
     background-image: url("https://www.web-expert.gr/images/social/rss.png"); }
   .twitter {
     width: 50px;
     height: 50px;
-    position: absolute;
-    margin: 0 0 0 290px;
+    float: right;
+    margin: 20px 0 0 0;
     background-image: url("http://hollyshortall.com/images/icons/holly-shortall-twitter.png"); }
   .youtube {
     width: 50px;
     height: 50px;
-    position: absolute;
-    margin: 0 0 0 350px;
+    float: right;
+    margin: 20px 0 0 0;
     background-image: url("http://lisayoungmusic.com/wp-content/uploads/2013/06/YouTube-50x50.png"); } }
+
+@media screen and (min-width: 975px) {
+  .headerbox2 {
+    margin: 10px 0 0 0; } }
