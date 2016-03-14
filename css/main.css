@@ -9,31 +9,29 @@ header {
   background-color: black;
   margin: 0 auto; }
 
-.facebook {
-  width: 50px;
-  height: 50px;
-  background-color: black;
-  position: absolute;
-  margin: -10px 0 0 770px;
-  background-image: url("https://www.web-expert.gr/images/social/facebook.jpg"); }
-
-.rss {
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  margin: -10px 0 0 830px;
-  background-image: url("https://www.web-expert.gr/images/social/rss.png"); }
-
-.twitter {
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  margin: -10px 0 0 890px;
-  background-image: url("http://hollyshortall.com/images/icons/holly-shortall-twitter.png"); }
-
-.youtube {
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  margin: -10px 0 0 950px;
-  background-image: url("http://lisayoungmusic.com/wp-content/uploads/2013/06/YouTube-50x50.png"); }
+@media screen and (min-width: 900px) {
+  .facebook {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    margin: 0 0 0 170px;
+    background-image: url("https://www.web-expert.gr/images/social/facebook.jpg"); }
+  .rss {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin: 0 0 0 230px;
+    background-image: url("https://www.web-expert.gr/images/social/rss.png"); }
+  .twitter {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin: 0 0 0 290px;
+    background-image: url("http://hollyshortall.com/images/icons/holly-shortall-twitter.png"); }
+  .youtube {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin: 0 0 0 350px;
+    background-image: url("http://lisayoungmusic.com/wp-content/uploads/2013/06/YouTube-50x50.png"); } }
