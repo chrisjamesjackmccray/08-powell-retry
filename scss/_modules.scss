@@ -1,9 +1,9 @@
 @mixin discriptiondiv {
-  width: 325px;
+  width: 300px;
   height: 340px;
   background-color: #FDFDFD;
   float: left;
-  margin: 0 12.3px 0 0;
+  margin: 0 0 0 44px;
 }
 
 h3 {
@@ -49,5 +49,113 @@ a {
 
 .discriptiondiv3 {
   @include discriptiondiv;
-  margin: 0;
+  margin: 0 auto;
+}
+
+
+
+
+.gallary {
+  width: 1000px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.pic1 {
+  width: 295px;
+  height: 464px;
+  border: 5px solid white;
+  background-position: 79% 0%;
+  float: right;
+  background-repeat: no-repeat;
+  background-image: url("../images/sk8er-2.png");
+
+
+}
+
+.pic2 {
+  width: 316px;
+  height: 230px;
+  border: 5px solid white;
+  background-position: 90% 40%;
+  float: left;
+  margin: 0 14px 14px 0;
+  background-image: url("../images/sk8er-4.png");
+
+}
+
+.pic3 {
+  width: 330px;
+  height: 230px;
+  border: 5px solid white;
+  background-position: 0% 40%;
+  float: left;
+  margin: 0 14px 14px 0;
+  background-image: url("../images/sk8er-3.png");
+
+}
+
+
+.pic4 {
+  width: 670px;
+  height: 210.4px;
+  border: 5px solid white;
+  background-position: 0% 75%;
+  float: left;
+  background-repeat: no-repeat;
+  float: left;
+  margin: 0 14px 14px 0;
+  background-image: url("../images/sk8er-1.png");
+
+}
+
+.pic1 p {
+  color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin: 185px 0 0 0;
+}
+
+.pic2 p {
+  color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin: 80px 0 0 25px;
+}
+
+.pic3 p {
+  color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin: 88px 0 0 0;
+}
+
+.pic4 p {
+  color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin: 70px 90px 0 0;
+
+}
+
+h6 {
+  color: white;
+
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
 }
