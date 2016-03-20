@@ -13,10 +13,10 @@ header {
 
 
 .headerbox1 {
-  width: 25%;
+  width: 24.3%;
   height: 45px;
   float: left;
-  margin: 80px 10px 0 0;
+  margin: 10.2px 10px 0 0;
   background-color: #b4292e;
 
   h2 {
@@ -30,15 +30,15 @@ header {
 }
 
 .headerbox2 {
-  width: 20%;
+  width: 24.3%;
   height: 45px;
   float: left;
-  margin: 80px 10px 0 0;
+  margin: 10.2px 10px 0 0;
   background-color: #b4292e;
   h2 {
     color: white;
     text-align: center;
-    margin: 12px 0 0 0;
+    margin: 0 0 0 0;
     text-transform: uppercase;
     font-size: 100%;
     font-style: oblique;
@@ -46,7 +46,7 @@ header {
 }
 
 .headerbox3 {
-  width: 20%;
+  width: 24.2%;
   height: 45px;
   float: left;
   margin: 10px 10px 0 0;
@@ -62,20 +62,39 @@ header {
 }
 
 .headerbox4 {
-  width: 20%;
+  width: 24.2%;
   height: 45px;
   float: left;
-  margin: 10px 0 0 0;
+  margin: 10px -80px 0 0px;
   background-color: #b4292e;
   h2 {
     color: white;
     text-align: center;
-    margin: 12px 0 0 0;
+    margin: -7px 0 0 0;
     text-transform: uppercase;
     font-size: 100%;
     font-style: oblique;
   }
 }
+
+.topimage {
+  width: 68%;
+  height: 350px;
+  background-color: black;
+  margin: 0 auto;
+  background-image: url("../images/top-image.png");
+  background-repeat: no-repeat;
+  background-position: 37% 26%;
+  border: 10px solid white;
+}
+
+
+.wingbone {
+  width: 380px;
+ margin: 62px 0 0 15px;
+}
+
+
 
 
 
@@ -86,7 +105,7 @@ header {
     height: 50px;
     background-color: black;
     float: right;
-    margin: 20px 145px 0 0;
+    margin: 20px 40px 0 0;
     background-image: url("https://www.web-expert.gr/images/social/facebook.jpg");
 
   }
@@ -119,12 +138,4 @@ header {
   }
 
 
-}
-
-
-
-@media screen and (min-width: 975px) {
-  .headerbox2 {
-    margin: 10px 0 0 0;
-  }
 }
