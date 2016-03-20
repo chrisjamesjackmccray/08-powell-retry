@@ -1,0 +1,53 @@
+@mixin discriptiondiv {
+  width: 325px;
+  height: 340px;
+  background-color: #FDFDFD;
+  float: left;
+  margin: 0 12.3px 0 0;
+}
+
+h3 {
+  padding: 0 0 0 28px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 150%;
+  font-weight: 400;
+  color: #494949;
+}
+
+h4 {
+  padding: 0 0 0 28px;
+  color: #C1C1C1;
+  font-weight: lighter;
+}
+
+p {
+  padding: 0 20px 0 28px;
+  color: #5E5C5D;
+}
+
+h5 {
+  color: #C05253;
+  text-transform: uppercase;
+  padding: 0 0 0 110px;
+  font-size: 90%;
+  font-weight: 800;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.discriptiondiv1 {
+  @include discriptiondiv;
+}
+
+.discriptiondiv2 {
+  @include discriptiondiv;
+}
+
+.discriptiondiv3 {
+  @include discriptiondiv;
+  margin: 0;
+}

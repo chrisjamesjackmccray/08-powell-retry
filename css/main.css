@@ -4,13 +4,13 @@ body {
   background-repeat: no-repeat; }
 
 header {
-  width: 68%;
+  width: 300px;
   height: 150px;
   background-color: black;
   margin: 0 auto; }
 
 .headerbox1 {
-  width: 24.3%;
+  width: 22.5%;
   height: 45px;
   float: left;
   margin: 10.2px 10px 0 0;
@@ -24,7 +24,7 @@ header {
     font-style: oblique; }
 
 .headerbox2 {
-  width: 24.3%;
+  width: 22.5%;
   height: 45px;
   float: left;
   margin: 10.2px 10px 0 0;
@@ -38,7 +38,7 @@ header {
     font-style: oblique; }
 
 .headerbox3 {
-  width: 24.2%;
+  width: 22.5%;
   height: 45px;
   float: left;
   margin: 10px 10px 0 0;
@@ -52,7 +52,7 @@ header {
     font-style: oblique; }
 
 .headerbox4 {
-  width: 24.2%;
+  width: 22.5%;
   height: 45px;
   float: left;
   margin: 10px -80px 0 0px;
@@ -65,19 +65,37 @@ header {
     font-size: 100%;
     font-style: oblique; }
 
+@media screen and (min-width: 800px) {
+  .topimage {
+    width: 280px;
+    height: 350px;
+    background-color: black;
+    margin: 0 auto;
+    background-image: url("../images/top-image.png");
+    background-repeat: no-repeat;
+    background-position: 58% 26%;
+    border: 10px solid white; } }
+
 .topimage {
-  width: 68%;
+  width: 280px;
   height: 350px;
   background-color: black;
   margin: 0 auto;
   background-image: url("../images/top-image.png");
   background-repeat: no-repeat;
-  background-position: 37% 26%;
+  background-position: 58% 26%;
   border: 10px solid white; }
 
-.wingbone {
-  width: 380px;
-  margin: 62px 0 0 15px; }
+@media screen and (max-width: 800px) {
+  .wingbone {
+    width: 200px;
+    margin: 120px 0 0 0px; } }
+
+.buttons {
+  width: 70px;
+  height: 30px;
+  margin: 0 auto;
+  padding: 10px 0 14px 0; }
 
 @media screen and (min-width: 400px) {
   .facebook {
@@ -105,3 +123,52 @@ header {
     float: right;
     margin: 20px 0 0 0;
     background-image: url("http://lisayoungmusic.com/wp-content/uploads/2013/06/YouTube-50x50.png"); } }
+
+h3 {
+  padding: 0 0 0 28px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 150%;
+  font-weight: 400;
+  color: #494949; }
+
+h4 {
+  padding: 0 0 0 28px;
+  color: #C1C1C1;
+  font-weight: lighter; }
+
+p {
+  padding: 0 20px 0 28px;
+  color: #5E5C5D; }
+
+h5 {
+  color: #C05253;
+  text-transform: uppercase;
+  padding: 0 0 0 110px;
+  font-size: 90%;
+  font-weight: 800;
+  margin: 0; }
+
+a {
+  text-decoration: none; }
+
+.discriptiondiv1 {
+  width: 325px;
+  height: 340px;
+  background-color: #FDFDFD;
+  float: left;
+  margin: 0 12.3px 0 0; }
+
+.discriptiondiv2 {
+  width: 325px;
+  height: 340px;
+  background-color: #FDFDFD;
+  float: left;
+  margin: 0 12.3px 0 0; }
+
+.discriptiondiv3 {
+  width: 325px;
+  height: 340px;
+  background-color: #FDFDFD;
+  float: left;
+  margin: 0 12.3px 0 0;
+  margin: 0; }
